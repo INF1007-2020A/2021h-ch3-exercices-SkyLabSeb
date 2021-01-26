@@ -24,6 +24,7 @@ def average(a: float, b: float, c: float) -> float:
 
 def to_radians(angle_degs: float, angle_mins: float, angle_secs: float) -> float:
     angle_rad = (angle_degs + (angle_mins / 60) + (angle_secs / 3600)) * (math.pi/180)
+    #test
 
     return angle_rad
 
